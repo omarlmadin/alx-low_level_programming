@@ -4,9 +4,9 @@
 
 /**
  *
- * main check number n
+ * main - check number n
  *
- * return = 0 (secssuful)
+ * Return: 0 (secssuful)
  */
 
 int main(void)
