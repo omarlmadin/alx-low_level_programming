@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main
+ * main check number n if pozitiv
  *
- * return 0
+ * return: 0
  */
 
 int main(void)
