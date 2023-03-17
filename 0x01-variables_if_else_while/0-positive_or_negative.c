@@ -3,10 +3,9 @@
 #include <time.h>
 
 /**
+ *  main - this is the main function
  *
- * main - check number n
- *
- * Return: 0 (secssuful)
+ *  Return: always 0
  */
 
 int main(void)
