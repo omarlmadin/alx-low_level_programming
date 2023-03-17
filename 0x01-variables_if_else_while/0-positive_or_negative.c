@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
- * main check number n if pozitiv
  *
- * return: 0
+ * main check number n
+ *
+ * return = 0 (secssuful)
  */
 
 int main(void)
