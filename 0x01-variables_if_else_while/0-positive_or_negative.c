@@ -25,7 +25,7 @@ else if (n > 0)
 }
 else if (n == 0)
 {
-i	printf("%d is zero\n", n);
+	printf("%d is zero\n", n);
 }
 return (0);
 }
