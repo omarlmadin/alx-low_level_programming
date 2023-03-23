@@ -1,36 +1,31 @@
-#include <stdio.h>
+#include "main.h"
 /**
- *main - replace multiples of 3 and 5.
+ *print_triangle - prints a triangle of size size.
+ *@size: size of triangle.
  *
- *Return: 0.
+ *Return: void.
  */
-int main(void)
+void print_triangle(int size)
 {
-	int i;
+	int i, j, space;
 
-	for (i = 1; i <= 100; i++)
+	if (size <= 0)
 	{
-		if (i % 3 == 0 &&  i % 5 == 0)
+		_putchar('\n');
+	}
+	else
+	{
+		for (i = 1; i <= size; i++)
 		{
-			printf("%s", "FizzBuzz");
-		}
-		else if (i % 3 == 0)
-		{
-			printf("%s", "Fizz");
-		}
-		else if (i % 5 == 0)
-		{
-			printf("%s", "Buzz");
-		}
-		else
-		{
-			printf("%d", i);
-		}
-		if (i != 100)
-		{
-			printf(" ");
+			for (space = 1; space <= (size - i); space++)
+			{
+				_putchar(' ');
+			}
+			for (j = 1; j <= i; j++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
 	}
-	printf("\n");
-	return (0);
 }
