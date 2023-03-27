@@ -1,2 +1,1 @@
-# alx-low_level_programming
-C programming is awesome
+this is the readme file 
